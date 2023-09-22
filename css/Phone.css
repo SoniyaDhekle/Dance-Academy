@@ -1,0 +1,115 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    scroll-behavior: smooth;
+}
+
+
+/* Navigation section  */
+
+#navbar {
+    flex-direction: column;
+    width: 100%;
+    height: 8rem;
+    overflow-x: hidden;
+}
+
+#navbar ul li a {
+    font-size: 0.6rem;
+    padding: 0 0;
+}
+
+#navbar ul li a:hover {
+    color: white;
+    border: 0px solid whitesmoke;
+    background-color: transparent;
+    /* border: solid 1px white; */
+}
+
+
+/* Home section  */
+
+#home {
+    overflow-x: hidden;
+    height: 480px;
+    padding: 3px 28px;
+    z-index: 2;
+    background-image: url(../Screenshot\ from\ 2022-07-30\ 19-48-02.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#home::before {
+    overflow-x: hidden;
+    height: 580px;
+    content: "";
+    position: absolute;
+    height: 642px;
+    background: url() no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home p {
+    font-size: 13px;
+}
+
+
+/* Out services */
+
+#ser {
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+
+/* Our Partner Section  */
+
+#icons {
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
+#partner {
+    height: 505px;
+}
+
+#icons .khoka {
+    padding: 10px;
+}
+
+#icons .khoka img {
+    height: 40px;
+}
+
+*/
+/* About us section  */
+
+#container {
+    color: pink;
+    margin: 40px 20px 20px 20px;
+}
+
+.dk-footer .contact-us {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-left: 80px;
+}
+
+
+/* contact Us Section  */
+
+
+/* Utility classes */
+
+.h-primary {
+    font-size: 26px;
+}
